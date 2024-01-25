@@ -13,15 +13,18 @@ Blogging is one the most important task for any individual who wants to keep eve
 # Installation
 * Fork this repository and clone it
 * Create a file named ".env" in the parent folder
+```bash
+touch .env
+```
 * Include these information in the file:
 
-    SECRET_KEY = (YOUR PERSONAL SECRET KEY)
-    SQLALCHEMY_DATABASE_URI = (YOUR SQLLITE URI)
-    MAIL_SERVER = 'smtp.googlemail.com'
-    MAIL_PORT = 587
-    MAIL_USE_TLS = True
-    MAIL_USERNAME = (YOUR GMAIL USERNAME)
-    MAIL_PASSWORD = (YOUR GMAIL PASSWORD)
+    SECRET_KEY = (YOUR PERSONAL SECRET KEY) \
+    SQLALCHEMY_DATABASE_URI = (YOUR SQLLITE URI) \
+    MAIL_SERVER = 'smtp.googlemail.com' \
+    MAIL_PORT = 587 \
+    MAIL_USE_TLS = True \
+    MAIL_USERNAME = (YOUR GMAIL USERNAME) \
+    MAIL_PASSWORD = (YOUR GMAIL PASSWORD) \
 
 * Run the file named "run.py"
 ```bash
